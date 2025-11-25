@@ -89,11 +89,11 @@ def update_book(isbn, title, author, year, category):
     return found
 
 
-# ---------------- STREAMLIT UI ---------------- #
+# STREAMLIT UI 
 
 st.set_page_config(page_title="Library Management System", layout="wide")
 
-st.title("📚 Library Book Management System")
+st.title("Library Book Management System")
 
 # Developer credit
 st.markdown("<h4 style='color:#666;'>Developed By: <b style='color:#4CAF50;'>Sajida Khoso</b></h4>", unsafe_allow_html=True)
@@ -105,21 +105,21 @@ menu = st.sidebar.selectbox(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("**👩‍💻 Developed By:** Sajida Khoso")
+st.sidebar.markdown("**Developed By:** Sajida Khoso")
 
 st.sidebar.markdown(
     "<a href='https://github.com/sajidakhoso' target='_blank'>"
     "<button style='background-color:#4CAF50;color:white;padding:8px 14px;border:none;border-radius:5px;'>"
-    "🌐 GitHub Profile"
+    "GitHub Profile"
     "</button></a>",
     unsafe_allow_html=True
 )
 
-# ----------------- APP SCREENS ---------------- #
+# APP SCREENS
 
 # ADD BOOK
 if menu == "Add Book":
-    st.subheader("➕ Add New Book")
+    st.subheader("Add New Book")
     
     isbn = st.text_input("ISBN (numeric)")
     title = st.text_input("Title")
@@ -143,7 +143,7 @@ if menu == "Add Book":
 
 # VIEW BOOKS
 elif menu == "View All Books":
-    st.subheader("📖 All Books")
+    st.subheader("All Books")
     books = load_books()
 
     if books:
@@ -153,7 +153,7 @@ elif menu == "View All Books":
 
 # SEARCH BOOK
 elif menu == "Search Book":
-    st.subheader("🔍 Search Book by ISBN")
+    st.subheader("Search Book by ISBN")
     isbn = st.text_input("Enter ISBN")
 
     if st.button("Search"):
@@ -166,7 +166,7 @@ elif menu == "Search Book":
 
 # UPDATE BOOK
 elif menu == "Update Book":
-    st.subheader("✏️ Update Book Details")
+    st.subheader("Update Book Details")
     isbn = st.text_input("Enter ISBN to Update")
 
     if st.button("Fetch Details"):
@@ -192,7 +192,7 @@ elif menu == "Update Book":
 
 # DELETE BOOK
 elif menu == "Delete Book":
-    st.subheader("🗑️ Delete Book")
+    st.subheader("Delete Book")
     isbn = st.text_input("Enter ISBN to Delete")
     
     if st.button("Delete Book"):
@@ -211,3 +211,4 @@ st.markdown("""
 <a href='https://github.com/sajidakhoso' target='_blank'>🔗 Visit GitHub Profile</a>
 </center>
 """, unsafe_allow_html=True)
+
