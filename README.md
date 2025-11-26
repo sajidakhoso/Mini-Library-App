@@ -6,10 +6,10 @@ This project allows users to **add, search, view, issue, and return books** usin
 ---
 
 ## 🚀 Demo  
-🔗 [Live Demo on Streamlit](https://job-placement-prediction-ml-model-007.streamlit.app/)  
+🔗 [Live Demo on Streamlit](https://mini-library-app.streamlit.app/)
 
 ## 🚀 Video Demo
-https://github.com/user-attachments/assets/7c82904a-b4d1-4444-aae5-ed887995955d
+https://github.com/user-attachments/assets/d953233f-1f6b-4ee7-9cad-eb5e5926e0e3
 
 ---
 
@@ -27,13 +27,13 @@ https://github.com/user-attachments/assets/7c82904a-b4d1-4444-aae5-ed887995955d
 
 ## 📸 Screenshots
 ### 🏠 Home Page
-<img width="1890" height="802" alt="image" src="https://github.com/user-attachments/assets/a91673bf-888f-44b1-a20d-269c8dc1488e" />
+<img width="1871" height="796" alt="image" src="https://github.com/user-attachments/assets/24ffcc2b-794f-4cfc-b4c9-77f1ee6ed7ae" />
 
-### 🧑 Person is placed for job
-<img width="1904" height="814" alt="image" src="https://github.com/user-attachments/assets/daa21d60-e59a-4bec-ac61-b4ce35bf9a96" />
+### 🧑 All Sections
+<img width="1890" height="804" alt="image" src="https://github.com/user-attachments/assets/5627a980-5176-4b8d-be2b-5f946a625760" />
 
-### 📄 Person is not placed for job
-<img width="1897" height="829" alt="image" src="https://github.com/user-attachments/assets/734e7d56-5de8-4b78-b26e-4764cdb8d718" />
+### 📄 Book Collections
+<img width="1865" height="752" alt="image" src="https://github.com/user-attachments/assets/b65a830f-26c2-47a2-ad1c-a42f3ae76340" />
 
 ---
 
